@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+</head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<style>
+body{
+    background-color: crimson;
+}
+.container{
+    background-color: gold;
+    width: 30%;
+    margin: auto;
+    padding: 1% 2%;
+
+}
+.form-field input,.form-field select{
+    width:90%;
+    padding: 10px;
+}
+button{
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 45%;
+    border-radius: 10px;
+    font-size: 1.3rem;
+}
+@media (max-width:436px){
+    .container{
+        width: 90%;
+    }
+}
+</style>
+</head>
+<body>
+    <form class="container" action="./login.html">
+        <h1 class="title">Register</h1>
+        <p class="form field">
+            <input type="text"
+            place holder="enter your name"required/>
+    </p>
+    <p>
+        <input type="email"
+        place holder="enter your email"require/>
+    </p>
+    <p>
+        <input type="radio"name="gender"/>
+        male
+        <input type="radio"name="gender"/>
+        female
+    </p>
+    <p>
+        <select required >
+            <option value="">select your state</option>
+            <option value="">AP</option>
+            <option value="">TS</option>
+            <option value="">MH</option>
+            <option value="">DL</option>
+        </select>
+    </p>
+    <p>
+        <input type="date"required/>
+    </p>
+    <p>
+        <input type="file"required/>
+    </p>
+    <p>
+        <button>submit</button>
+    </p>
+</form>
+</body>
+
+        </p>
